@@ -3,13 +3,153 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
+        <title>DevDumisani Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-
+        <link rel="stylesheet" href="style.css">
+       
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        
+        <header>
+            <div class="logo">
+                 <img src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="">
+            </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+             <nav class="nav">
+                 <ul class="nav__list">
+                     <li class= "nav__item"><a href="#home" class="nav__link">Home</a></li>
+                     <li class= "nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                     <li class= "nav__item"><a href="#About me" class="nav__link">About Me</a></li>
+                     <li class="nav__item"><a href="#My work" class="nav__link">My Work</a></li>
+                 </ul>
+             </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+              Hi, I am <strong>Dumisani Nxumalo</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> front-end dev</p>
+            <img src="images\IMG_20210901_124219_622.webp" alt="A picture of Dumisani smiling" class="intro__img">
+        </section>
+    
+
+        <!-- My Services-->
+        <section class="my-services" id ="services">
+         <h2 class="section__title section__title--services">What I do</h2>
+         <div class="services">
+                <div class="service">
+                     <h3>Student</h3>
+                    <p>My journey in software development and virtual assistance has been characterized by a strong commitment to continuous learning and skill enhancement. At Code Space Academy, I excelled in foundational courses covering HTML, CSS, JavaScript, and version control using Git and GitHub. I also developed a recipe page that showcased my proficiency in web design by incorporating specific fonts and a neutral color palette. Through the ALX Virtual Assistant Fellowship, I improved my virtual assistance skills, focusing on effective communication, empathy, adaptability, and real-time problem-solving. Additionally, I built a professional network through interactions with mentors, peers, and industry professionals, setting the stage for future collaborations. These educational experiences have provided me with a solid foundation in both software development and virtual assistance. The structured learning paths and hands-on projects have equipped me with the necessary skills to excel, while the emphasis on continuous learning ensures I remain current with the latest industry trends and advancements.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>In the realm of e-commerce, I have utilized my web development skills to build user-friendly and responsive online stores, enhancing user experience and driving engagement. My front-end development work includes ensuring responsive design for accessibility across various devices and implementing cross-browser compatibility to maintain consistent performance. To optimize performance, I have employed techniques such as image compression, lazy loading, and efficient coding practices to reduce load times, thereby boosting user satisfaction. Additionally, I have applied SEO best practices to improve site visibility, increasing organic traffic and sales opportunities. This experience demonstrates my ability to apply technical skills effectively in a commercial context, focusing on responsive design and performance optimization to create efficient and successful e-commerce websites.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>WordPress has been a cornerstone of my web development toolkit, enabling the creation of versatile and dynamic websites that cater to diverse client needs. By designing and developing bespoke WordPress themes, I have tailored unique design elements and functionalities to enhance user experience, focusing on intuitive navigation and accessibility. Additionally, I have developed and integrated custom plugins to extend site capabilities, including e-commerce solutions, social media integration, and advanced forms, while ensuring optimal performance and robust security to safeguard client data. These efforts have allowed me to bring a wide range of web development projects to life, from simple blogs to complex business websites. Leveraging WordPress's flexibility and extensive ecosystem, I have delivered tailored solutions that meet specific client requirements, showcasing my adaptability and technical proficiency. My dedication to continuous improvement, practical application of skills, and a user-focused approach is reflected in my strong portfolio. My journey is ongoing, and I am committed to achieving even greater proficiency and innovation in my future projects.</p>
+                </div> <!-- / service -->
+         </div> <!-- /services-->
+
+         <a href="My work" class="btn">My Work</a>
+        </section> 
+
+        <!-- About me-->
+
+        <section class="about-me" id="About me">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Aspiring Front-end Developer Student based in Johannesburg</p>
+            
+            <div class="about-me__body">
+                <p><h4>Introduction</h4> I am Dumisani Nxumalo, an aspiring software developer with a passion for web design, foundational development, and terminal-based communication. Currently a student at Code Space Academy, I am honing my skills to become a proficient front-end developer with a long-term goal of evolving into a full-stack developer.</p>
+                <p><h4>Proffesional Goals</h4> After completing the six-month intensive course at Code Space, I am ready to embark on my journey as a junior front-end developer. My ultimate ambition is to integrate software development with virtual assistance, creating seamless and efficient real-time solutions for various applications. This ambition is driven by my participation in the ALX Virtual Assistant Fellowship, where I am further enhancing my skills.</p>
+                <p><h4>Skills and Expertise</h4>
+                 Web Development: Proficient in HTML, CSS, and basic Javascript, with hands-on experience in creating responsive and visually appealing web pages.
+                 Software Development: Solid understanding of foundational development principles, focusing on clean code and efficient problem-solving.
+                 Virtual Assistance Integration: Leveraging my knowledge in virtual assistance to innovate and improve software solutions, ensuring they are user-friendly and efficient.</p>
+                <p><h4>Projects</h4> I am currently working on a web project that involves designing a recipe page using specific fonts (Young Serif and Outfit) and adhering to a neutral color palette. This project not only enhances my design skills but also allows me to apply best practices in web development.</p>
+                <p><h4>Personal Philosophy</h4> believe in continuous learning and staying updated with the latest industry trends. My approach is to blend creativity with technical expertise to deliver high-quality and user-centric solutions. I am committed to being a lifelong learner and strive to be at the forefront of technological advancements.</p>
+                <p><h4>Future Aspirations</h4>In the next five years, I aim to be a leading figure in the software development industry, known for my innovative solutions and ability to merge virtual assistance with traditional software development. My goal is to create reliable and efficient real-time assistance tools that can revolutionize how we interact with technology.</p>
+                <p><h4>Let's connect</h4> I am always open to new opportunities and collaborations. Feel free to reach out to discuss potential projects, share insights, or just to connect with like-minded professionals.</p>
+            </div>
+
+            <img src="images/Dumisani standing.jpg" alt="Dumisani standing" class="about-me__img">
+        </section>
+
+        <!--my-work-->
+        <section class="my-work" id="My work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class=section__subtitle section__subtitle--work>A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (4).jpeg" alt="" class="portfolio__img"></a>
+
+                 <!-- Portfolio item 02-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (9).jpeg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 03-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (8).jpeg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 04-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (7).jpeg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 05-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (6).jpeg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 06-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (5).jpeg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 08-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (3).jpeg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 09-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (2).jpeg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 10-->
+                <a href="#" class="portfolio__item" title="#">
+                    <img src="images\Designer (10).jpeg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:Dumisaninxumalo5@gmail.com" class="footer__link">Dumisaninxumalo5@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/d-nxumalo/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://codepen.io/Dumisani-Nxumalo"><i class="fab fa-codepen"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/Duma107"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
     </body>
 </html>
